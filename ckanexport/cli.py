@@ -21,6 +21,7 @@ from docopt import docopt
 from ckanapi.remoteckan import RemoteCKAN
 from ckanapi.localckan import LocalCKAN
 
+from ckanexport.lib import create_dump
 from ckanexport.version import __version__
 
 def parse_arguments():

@@ -19,5 +19,8 @@ setup(
     entry_points = """
         [console_scripts]
         ckanexport=ckanexport.cli.main:main
+
+        [paste.paster_command]
+        ckanexport=ckanexport.cli.paster:CKANAPICommand
         """
     )

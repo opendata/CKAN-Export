@@ -18,7 +18,7 @@ setup(
     zip_safe=False,
     entry_points = """
         [console_scripts]
-        ckanexport=ckanexport.cli.main:main
+        ckanexport=ckanexport.cli:main
 
         [paste.paster_command]
         ckanexport=ckanexport.paster:CKANExportCommand

@@ -21,6 +21,6 @@ setup(
         ckanexport=ckanexport.cli.main:main
 
         [paste.paster_command]
-        ckanexport=ckanexport.cli.paster:CKANAPICommand
+        ckanexport=ckanexport.paster:CKANExportCommand
         """
     )

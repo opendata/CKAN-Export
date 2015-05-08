@@ -1,7 +1,6 @@
 # CKAN-Export
 Making more robust the content and value of CKAN exports.
 
-## Usage
-Not on PyPI yet. Clone and run `setup.py develop`
+Now merged into [ckanapi](http://github.com/ckan/ckanapi)
+as the `ckanapi dump datasets --datapackages` CLI command
 
-Then run `ckanexport` to see the help and available options
